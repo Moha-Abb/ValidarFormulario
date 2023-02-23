@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(129, 120, 120);
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(117, 99, 99);
+    width: 70%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+    border: none;
+    background-color: blueviolet;
+    box-shadow: 0 0 5px red;
+    margin: 15px auto;
+    font-size: 30px;
+
+}
+#btn:hover{
+    background-color: rgb(64, 121, 167);
+}
+
+h1 {
+    font-size: 100px;
+    color: aqua;
+}
+input{
+padding: 15px;
+margin: 4px auto;
+}
+label{
+    font-size: 30px;
+    margin: 4px auto;
+}
+
+.mensaje{
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    color: brown;
+}
